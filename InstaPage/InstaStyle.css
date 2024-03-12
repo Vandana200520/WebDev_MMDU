@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+#Sec1{
+        
+    height: 30%;
+    width: 20%;
+    margin: 200px 200px 0px 200px;
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(151, 146, 146) 1px;
+
+}
+
+#Sec2{
+    height: 30%;
+    width: 20%;
+    padding: 10px;
+    margin: 2px 200px 0px 200px;
+    background-color: white;
+    border: solid rgb(151, 146, 146) 1px;
+
+}
+
+
+#facebook{
+    color: rgb(9, 9, 171);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+
+

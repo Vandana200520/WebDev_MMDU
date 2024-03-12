@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+
+            text-align: center;
+            margin: 10px;
+            height: 150px;
+            width: 500px;
+            border: 6px  solid rgb(3, 3, 3);
+            background-color:beige;
+            /* border-radius: 4px ; */
+            position: relative; 
+            transition-property: all; /* will work smoothly*/
+            transition-duration: 2s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in-out;
+
+            /* shorthand notations type */
+            /* property name | duration */
+            /* transition: margin-right 4s; */
+
+            /* property name | duration | delay */
+            /* transition: margin-right 4s 1s; */
+
+            /* property name | duration | easing function */
+            /* transition: margin-right 4s ease-in-out; */
+
+            /* property name | duration | easing function | delay */
+            /* transition: margin-right 4s ease-in-out 1s; */
+
+            /* property name | duration | behavior */
+            /* transition: display 4s allow-discrete; */
+
+            /* Apply to 2 properties */
+            /* transition: margin-right 4s, color 1s; */ /*can give time separately also*/
+        }
+        .box:hover{
+            font-size:xx-large ;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bolder;
+
+            height: 400px;
+            width: 1000px;
+            background-color: rgb(96, 49, 5);
+            color: chartreuse;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box"> Hover to see changes.</div>
+</body>
+</html>

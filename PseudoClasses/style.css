@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+#div1{
+    border: 2px solid gray;
+    height: 500px;
+    background-image: linear-gradient(/*any angle,*/green,blue,red);
+}
+/* #div1{
+    border: 2px solid gray;
+    height: 500px;
+    background-image: linear-gradient(to right ,green,blue,red);
+} */
+
+#div2{
+    border: 2px solid gray;
+    height: 500px;
+    background-image: radial-gradient(circle /*by default ellipse*/ ,green 50%,blue,red);
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 100px;
+}
+
+.required::after{
+    content: '*';
+    color: red;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+p::first-line{
+    background-color: aquamarine;
+}
+span{
+
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic ;
+    font-size: large;
+    color: brown;
+    background-color: aqua;
+    border: 2px dotted red;
+    padding: 5px;
+}
+
+.imp::after{
+    content: 'important';
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+
+h3::first-letter{
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(61, 42, 165);
+}
+
+h3{
+    text-align: center;
+}
+::selection{
+    color: rgb(9, 65, 56);
+    background-color: rgb(228, 128, 128);
+}
+
+.first:link{
+    color: red;
+    padding: 4px;
+}
+
+.first:visited{
+    color: rgb(136, 255, 0);
+}
+
+.first:hover{
+    color: rgb(219, 10, 222);
+    background-color: rgb(2, 2, 2);
+}
+
+.first:active{
+    border: 2px dotted red;
+    color: black;
+    background-color: white;
+}
+
+/* ul li:first-child{
+    background-color:blueviolet;
+}
+
+ul li:last-child{
+    background-color:rgb(57, 30, 82);
+}
+
+ul li:nth-child(7){
+    background-color:rgb(112, 79, 143);
+} */
+
+ul li:nth-child(2n+1){
+    background-color:rgb(197, 176, 218);
+}

@@ -1,0 +1,21 @@
+
+span,#p1{
+    
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 4px;
+    height: 100px;
+    width: 700px;
+}
+
+#p2,#p3{
+ 
+    font-weight: bolder;
+    color: brown;
+    background-color: rgb(170, 227, 208);
+    border: solid black 3px;
+    border-radius: 4px;
+    height: 100px;
+    width: 700px;
+
+}

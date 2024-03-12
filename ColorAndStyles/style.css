@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-decoration:underline ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 40px;
+    font-family: "Madimi One", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 50px;
+    
+}
+
+#FirstPara{
+    background-color: rgb(223, 102, 102);
+}
+
+#SecondPara{
+    background-color: rgba(205, 85, 239, 0.427);
+}
+
+#ThirdPara{
+    background-color: #328ba8;
+}
+
+#FourthPara{
+    border: 10px solid rgba(221, 0, 255, 0.557);
+    padding: 40px;
+    margin: 30px;
+}
+
+#FifthPara{
+    background-color: hsl(195, 100%, 50%);
+}
