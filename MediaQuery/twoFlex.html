@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 1px;
+            padding: 1px;
+            border: 5px solid black;
+            background-color: beige;
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+
+        }
+        .box1{
+            border: 3px solid rgb(129, 21, 21);
+            margin: 1px;
+            padding: 2px;        
+            height:200px;    
+            width: 200px;
+        }
+        .box2{
+            border: 3px solid rgb(129, 21, 21);
+            margin: 1px;
+            padding: 2px;        
+            height:200px;    
+            width: 200px;
+        }       
+
+        #btn1{
+            border: solid 2px blue;
+            display: flex;
+            flex-direction: column;
+
+        }
+        #btn2{
+            border: solid 2px rgb(91, 122, 18);
+
+        }
+
+        /* @media  (min-width: 640px) {  /*greater than 640*/  /*
+            .container{
+                flex-direction: row;
+            }
+        }
+        */
+
+        @media  (max-width: 640px) {
+            .container{
+                flex-direction: column;
+            }
+        } 
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <p id="btn1"> 1st button </p>
+            <p id="btn2"> 2nd button</p>
+        </div>
+
+        <div class="box2">
+            <img src="image.jpg"  height="200px" width="200px" >
+        </div>
+
+    </div>
+</body>
+</html>
