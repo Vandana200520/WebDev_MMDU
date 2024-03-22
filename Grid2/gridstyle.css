@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    /* padding: 2px; */
+    background-color: rgba(154, 146, 222, 0.363);
+    display: grid;
+
+    border: 4px solid rgb(60, 23, 193);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,200px);
+    gap: 0.1rem;
+
+    /* justify-items: stretch; */
+    /* align-items: end; */
+    place-items: center;
+
+}
+
+.item{
+    height: 50px;
+    width: 100px;
+    /* padding: 10px; */
+
+    background-color: rgba(30, 7, 232, 0.708);
+    border: 4px solid brown;
+
+    /*justify-self: stretch;  /*acc to column width*/ /*x-axis*/
+    /*align-self: stretch;  /*works vertically*/
+    /* place-self: center; */
+
+
+
+
+}
