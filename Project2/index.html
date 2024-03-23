@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Job Application Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>
+            <b> Job Application Form</b>
+            <span class="small">( Web ) </span>
+            </h1>
+            <form action="">
+            <div class="form_container">
+                <div class="form_control">
+                    <label for="Fst_Name">First Name</label><br>
+                    <input type="text" id="Fst_Name" placeholder="First Name"> 
+                </div>
+
+                <div class="form_control">
+                    <label for="Last_Name"> Last Name</label> <br>
+                    <input type="text" id="Last_Name" placeholder="Last Name"> 
+                </div>
+
+                <div class="form_control">
+                    <label for="Email">Email</label><br>
+                    <input type="email" id="Email" placeholder="Enter Email">
+                </div>
+
+                <div class="form_control">
+                    <label for="Job_Role">Job Role</label><br>
+                    <select name="Role" id="Job_Role">
+                        <option value=""> Select Job Role</option>
+                        <option value="BD">Backend Developer</option>
+                        <option value="FD">Frontend Developer</option>
+                        <option value="FSD">Full Stack Developer</option>
+                        <option value="UI"> UI UX Designer</option>
+                    </select>
+                </div>
+
+                <div class="textarea_control">
+                    <label for="Address">Enter Address</label><br>
+                    <textarea id="Address" name="Address" rows="4" cols="50" placeholder="Enter Address"></textarea>
+                </div>
+
+                <div class="form_control">
+                    <label for="City">City </label><br>
+                    <input type="text" id="City" placeholder="Enter City">
+                </div>
+
+                <div class="form_control">
+                    <label for="Pincode">Pincode</label> <br>
+                    <input type="number" id="Pincode" placeholder=" Enter Pincode">
+                </div>
+
+                <div class="form_control">
+                    <label for="Date">Start Date</label><br>
+                    <input type="date" value="2024-01-01" name="Date" id="Date">
+                </div>
+                
+                <div class="form_control">
+                    <label for="CV">Upload your CV </label><br>
+                    <input type="file" id="CV">
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit">Apply Now</button>
+            </div>
+            </form>
+        </div>
+    </div>
+        
+</body>
+</html>
