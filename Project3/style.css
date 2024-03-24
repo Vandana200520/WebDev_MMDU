@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .container{
+ 
+} */
+
+span p1, span p3{
+    font-size: 60px;
+    color: white;
+}
+span p2{
+    font-size: 20px;
+    color: white;
+}
+span p3{
+    text-transform:uppercase ;
+}
+
+
+.fst_line{
+    /* text-align: center; */
+    text-align: start;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 200px 400px 200px;
+    background-image: url('html-wallpaper.avif');
+}
+
+.work_line {
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase ;
+    color: white;
+    background: black;
+    font-size: 40px;
+}
+
+.boxes{
+
+    height: 400px;
+    width: 900px;
+    margin: 30px 5px 10px 60px;
+    padding: 4px;
+    border:  white solid 1px;
+
+    display: grid;
+    gap: 35px;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: center; */
+
+}
+
+h3{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+.box1,.box2,.box3{
+
+    border:  solid rgb(236, 229, 229) 2px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);   /* x y z clr*/
+    height: 380px;
+    width: 420px;
+}
+
+.box1:hover,.box2:hover,.box3:hover {
+    cursor: pointer;
+    width: 450px;
+    height: 400px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s;
+}
+
+.boxes img:hover{
+    cursor: pointer;
+    width: 445px;
+    height: 220px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1); 
+    transition-duration: 2s;
+}
+
+h1,h2,h3,h4,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes img{
+    height: 200px;
+    width: 415px ;
+    border-radius: 10px;
+}
+
+.contact{
+    margin: 5px 0px 0px 0px;
+    display: grid;
+    /* padding: 6px; */
+    /* border:  white solid 1px; */
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+
+.contact_me{
+    background-color: rgb(19, 65, 19);
+    color: white;
+    padding: 6px;
+    padding-bottom: 50px;
+}
+
+.About_me{
+    background-color: rgb(128, 6, 0);
+    color: white;
+    padding: 6px;
+    padding-bottom: 50px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 0%;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact_me h4:hover{
+    color: red;
+
+}
